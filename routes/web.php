@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/sample','SampleController@sample');
+Route::get('/login','CustomLoginController@login');
+
+Route::resource('/admin','AdminController');
+Route::resource('/teacher','TeacherController');
+Route::resource('/student','StudentController');
