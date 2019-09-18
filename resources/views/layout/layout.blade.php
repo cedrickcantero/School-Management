@@ -13,13 +13,12 @@
 <body>
 	<div class="header">
     <div class="row">
-  <img src="{{URL::asset('/image/logo.png')}}" alt="profile Pic" height="200" width="200">
-  <h1>Mabolo Christian Academy</h1>
-</div>
+        <img src="{{URL::asset('/image/logo.png')}}" alt="profile Pic" height="100" width="100">
+        <h2>Mabolo Christian Academy</h2>
+  </div>
 </div>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

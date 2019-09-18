@@ -1,1 +1,9 @@
-<h1>Sample</h1>
+@extends('layout.layout')
+
+
+@section('content')
+<div class="container">
+	<h1>Test</h1>
+</div>
+
+@endsection
